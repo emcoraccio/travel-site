@@ -827,14 +827,15 @@ a {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex
+
   }
   }
 
 .row--equal-height-at-medium > div {
-    float: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+      float: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
     }
 
 @media (min-width: 1010px) {
@@ -843,15 +844,16 @@ a {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
+    
   }
   }
 
-.row > div {
-    float: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
+.row--equal-height-at-large > div {
+      float: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
 
 .generic-content-container p{
     font-weight: 300;
